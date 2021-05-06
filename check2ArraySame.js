@@ -44,4 +44,4 @@ let betterSameCheck = (arr1, arr2) => {
 console.log(betterSameCheck([1, 2, 3, 4,4,4], [3, 4, 1, 2,3,3]))
 
 
-// here complexcity will be O(n) as we are only looping once into each array. Loop indivisually is far better than nested looping
+// here complexcity will be O(3n) or O(n) as we are only looping once into each array.So max loop will be 3* length of array Loop indivisually is far better than nested looping
